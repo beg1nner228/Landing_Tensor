@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\shuri\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-shuri-OneDrive-Desktop-landing-tensor\\\\5b2123e9-249e-4ff4-bd04-38d794ff8506\\\\tasks\\\\bene2yvwi.output\" -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
