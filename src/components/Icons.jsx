@@ -3,31 +3,7 @@
 export function Mark() {
   return (
     <span className="mark">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
-        <defs>
-          <linearGradient id="tensorPureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#7BFF00" />
-            <stop offset="35%" stop-color="#39FF14" />
-            <stop offset="75%" stop-color="#00E5FF" />
-            <stop offset="100%" stop-color="#00B0FF" />
-          </linearGradient>
-        </defs>
-
-        <g>
-          <path d="M 80 140 
-                  L 130 190 
-                  L 210 190 
-                  L 210 380 
-                  L 290 380 
-                  L 290 190 
-                  L 370 190 
-                  L 420 140 
-                  Z" 
-                fill="url(#tensorPureGradient)" />
-        </g>
-      </svg>
-
+        <img src="/tensor-favicon.jpg" alt="logo" />
     </span>
   );
 }
